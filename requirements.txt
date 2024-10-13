@@ -1,0 +1,8 @@
+scikit-learn==1.3.2
+clarinpl-embeddings==0.0.1rc7078377068125
+plotly==5.24.1
+ipykernel==6.29.5
+flair==0.14.0
+fasttext==0.9.3
+nltk==3.9.1
+gensim==4.3.3
