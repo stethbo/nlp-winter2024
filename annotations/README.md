@@ -59,3 +59,66 @@
 **zdanie pozytywne**:
 
 "Bardzo dobry watomierz. Teraz wiem co najwięcej mi zżera prądu - Lodówka. Można sprawdzić czy opis zużycia energii różnych sprzętów zgadza się z rzeczywistością. I dowiedzieć się, że nawet pozostawienie w gniazdku przewodu od pralki powoduje pobieranie ok. 1W energii. Niby niewiele 5zł. na rok to kosztuje. Ale jeszcze inne sprzęty, ruter, ładowarki , telewizory i trochę się uzbiera."
+
+
+# Anotacje wyrazów
+
+## 1. Ogólne zasady anotacji:
+* Każde słowo w zdaniu musi otrzymać jedną z następujących etykiet:
+    * **0 (Negatywne)** - słowo wyraża negatywną opinię lub emocje.
+    * **1 (Neutralne)** - słowo nie niesie żadnego wyraźnego ładunku emocjonalnego lub sentymentalnego.
+    * **2 (Pozytywne)** - słowo wyraża pozytywną opinię lub emocje.
+    * **3 (Inne)** - słowa funkcyjne, takie jak spójniki, przyimki, które nie niosą znaczenia sentymentalnego.
+
+## 4. Sentyment negatywny (NEG):
+* Przypisz etykietę NEG (**0**) do słów, które wyrażają krytykę, niezadowolenie, problemy lub negatywne doświadczenie.
+* Przykłady:
+    * „Bateria wytrzymuje bardzo **krótko**."
+    * „**Tragiczna** obsługa klienta, zdecydowanie **odradzam**."
+
+## 3. Sentyment neutralny (NEU):
+* Etykietę NEU (**1**) stosuje się do słów, które mają neutralny charakter i nie wyrażają ani pozytywnego, ani negatywnego wydźwięku. Często są to rzeczowniki, nazwy przedmiotów, miejsc lub specyficznych funkcji produktu.
+* Przykłady:
+    * „Ten **telefon** ma **wyświetlacz** ..."
+    * „Długość **kabla** jest odpowiednia."
+
+
+
+## 2. Sentyment pozytywny (POS):
+* Przypisz etykietę POS (**2**) do słów, które wyrażają aprobatę, pochwałę, pozytywne doświadczenie lub pozytywny wydźwięk.
+* Przykłady:
+    * „Jakość obrazu jest **świetna**.”
+    * „Produkt jest **doskonały** i **łatwy** w użyciu.”
+
+## 5. Słowa funkcyjne O(**3**):
+* Słowa, które nie niosą konkretnego ładunku sentymentalnego, takie jak spójniki, przyimki, zaimki, liczebniki itp., należy oznaczyć jako **3**.
+* Przykłady:
+    * „To jest produkt **dla** każdego."
+    * „Wszystko działa **jak** należy."
+
+## 6. Słowa zmieniające kontekst sentymentu:
+* Czasami pewne słowa, takie jak „nie", „bez", „zbyt", mogą zmieniać wydźwięk danego zdania. Należy je również oznaczyć zgodnie z ich funkcją w kontekście zdania:
+    * NEG, jeśli zmieniają pozytywny sentyment na negatywny (np. „nie jest dobry").
+    * POS, jeśli zmieniają negatywny sentyment na pozytywny (np. „nie jest zły").
+
+| Słowo       | Anotacja |
+| ----------- | -------- |
+| Telefon     | NEU      |
+| działa      | NEU      |
+| świetnie    | POS      |
+| .           | O        |
+| Produkt     | NEU      |
+| jest        | O        |
+| nie         | NEG      |
+| dobry       | NEG      |
+| .           | O        |
+| Kamera      | NEU      |
+| działa      | NEU      |
+| bezbłędnie  | POS      |
+| ,           | O        |
+| ale         | O        |
+| bateria     | NEU      |
+| nie         | NEG      |
+| trzyma      | NEG      |
+| długo       | NEG      |
+| .           | O        |
