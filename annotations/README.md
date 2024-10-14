@@ -100,25 +100,36 @@
 * Czasami pewne słowa, takie jak „nie", „bez", „zbyt", mogą zmieniać wydźwięk danego zdania. Należy je również oznaczyć zgodnie z ich funkcją w kontekście zdania:
     * NEG, jeśli zmieniają pozytywny sentyment na negatywny (np. „nie jest dobry").
     * POS, jeśli zmieniają negatywny sentyment na pozytywny (np. „nie jest zły").
+## 7. Słowa wzmacniające sentyment
+* Słowa takie jak „bardzo”, „zbyt”, „niezwykle” działają jako wzmacniacze sentymentu, ale same w sobie nie zawsze mają wydźwięk. Ich rola polega na modyfikacji znaczenia innych słów, dlatego są one zazwyczaj anotowane jako neutralne (NEU)
 
-| Słowo       | Anotacja |
-| ----------- | -------- |
-| Telefon     | NEU      |
-| działa      | NEU      |
-| świetnie    | POS      |
-| .           | O        |
-| Produkt     | NEU      |
-| jest        | O        |
-| nie         | NEG      |
-| dobry       | NEG      |
-| .           | O        |
-| Kamera      | NEU      |
-| działa      | NEU      |
-| bezbłędnie  | POS      |
-| ,           | O        |
-| ale         | O        |
-| bateria     | NEU      |
-| nie         | NEG      |
-| trzyma      | NEG      |
-| długo       | NEG      |
-| .           | O        |
+## Porada praktyczna
+- Oceniamy od lewej do prawej, jęśli na lewo od słowa nie ma determinacji sentymentu to słowo jest neutralne lub inne. Jedynie przy słowach zmieniających sentyment patrzymy na frazę całościowo.
+
+
+| Słowo       | Anotacja | Komentarz |
+| ----------- | -------- | --------- |
+| Telefon     | NEU      |           |
+| działa      | NEU      | słowo jak somo w sobie jest neutralne dopiero po nim nastąpi determinacja sentymentu          |
+| bardzo      | NEU      |  wzmocnienie jest neutralne         |
+| dobrze      | POS      |           |
+| .           | O        |           |
+| Produkt     | NEU      |           |
+| jest        | O        |           |
+| nie         | NEG      |   zmiana sentymentu        |
+| dobry       | NEG      |   oceniamy na podstawie kontekstu         |
+| .           | O        |           |
+| Kamera      | NEU      |           |
+| działa      | NEU      |   słowo jest neutralne        |
+| bezbłędnie  | POS      |           |
+| ,           | O        |           |
+| ale         | O        |           |
+| bateria     | NEU      |           |
+| nie         | NEG      |    oceniamy całą frazę       |
+| trzyma      | NEG      |    oceniamy całą frazę       |
+| długo       | NEG      |    oceniamy całą frazę       |
+| .           | O        |           |
+| Kamera      | NEU      |           |
+| nagrywa     | NEU      |           |
+| bez         | POS      |      zmienia sentyment oznaczam w stronę w którą zmienia     |
+| problemu    | POS      |    sentyment oparty jest na kontekście       |
