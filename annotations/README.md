@@ -105,7 +105,7 @@
 
 ## Porada praktyczna
 - Oceniamy od lewej do prawej, jęśli na lewo od słowa nie ma determinacji sentymentu to słowo jest neutralne lub inne. Jedynie przy słowach zmieniających sentyment patrzymy na frazę całościowo.
-
+- Czasownik należy oznaczyć zgodnie z jego rolą w przekazaniu opinii
 
 | Słowo       | Anotacja | Komentarz |
 | ----------- | -------- | --------- |
@@ -115,7 +115,7 @@
 | dobrze      | POS      |           |
 | .           | O        |           |
 | Produkt     | NEU      |           |
-| jest        | O        |           |
+| jest        | O        |    łącznik       |
 | nie         | NEG      |   zmiana sentymentu        |
 | dobry       | NEG      |   oceniamy na podstawie kontekstu         |
 | .           | O        |           |
@@ -123,7 +123,7 @@
 | działa      | NEU      |   słowo jest neutralne        |
 | bezbłędnie  | POS      |           |
 | ,           | O        |           |
-| ale         | O        |           |
+| ale         | O        |   łącznik        |
 | bateria     | NEU      |           |
 | nie         | NEG      |    oceniamy całą frazę       |
 | trzyma      | NEG      |    oceniamy całą frazę       |
