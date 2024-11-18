@@ -1,0 +1,5 @@
+sacremoses
+transformers
+torch
+datasets
+peft
