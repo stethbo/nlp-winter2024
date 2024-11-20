@@ -1,2 +1,7 @@
 **/venv/
 **/data/
+.ipynb_checkpoints
+
+cc.pl.300.bin
+cc.pl.300.bin.gz
+nkjp+wiki-forms-all-100-cbow-hs.txt
