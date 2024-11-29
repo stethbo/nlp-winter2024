@@ -1,7 +1,8 @@
 **/venv/
 **/data/
 .ipynb_checkpoints
-
+env/
 cc.pl.300.bin
 cc.pl.300.bin.gz
 nkjp+wiki-forms-all-100-cbow-hs.txt
+**/__pycache__/**
