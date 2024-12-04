@@ -12,3 +12,4 @@ flair==0.14.0
 fasttext==0.9.3
 nltk==3.9.1
 gensim==4.3.3
+faiss-cpu==1.8.0
